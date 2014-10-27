@@ -1,5 +1,4 @@
-*.class
-
+*.bak
 bin
 .metadata
 .recommenders
@@ -9,3 +8,5 @@ bin
 *.war
 *.ear
 TeachingKidsProgramming/.virtual_proctor.txt
+*.iml
+.idea

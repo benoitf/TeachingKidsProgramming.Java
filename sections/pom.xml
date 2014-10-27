@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>teaching-kids-programming</artifactId>
+    <groupId>org.teachingkids.programming</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>sections</artifactId>
+  <name>TKP :: Sections</name>
+  <packaging>pom</packaging>
+  <modules>
+      <module>section01</module>
+    <module>section02</module>
+    <module>section03</module>
+    <module>section04</module>
+    <module>section05</module>
+    <module>section06</module>
+    <module>section07</module>
+  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.teachingkids.programming</groupId>
+      <artifactId>recipes</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+</project>
